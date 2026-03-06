@@ -26,7 +26,7 @@ header {
   z-index: 2;
 
   & img {
-    width: 150px;
+    width: 100px;
   }
 
   & nav {
@@ -44,6 +44,7 @@ section {
   background-image: radial-gradient(#7f3d9e, #6d00d9);
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 
   & .list{
     width: 100vw;
@@ -73,9 +74,10 @@ section {
       & .content {
         position: absolute;
         right: 100px;
-        width: 70%;
+        width: 80%;
         height: 100%;
         display: flex;
+        left: 15%;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
@@ -191,10 +193,12 @@ section {
 
 section {
   & .list {
+    
+
 
     & .item{
-        
-        transform: translateX(100vw);
+    
+        transform: translateX(100vw );
       
         transition: 0.5s;
 
